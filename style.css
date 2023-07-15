@@ -1,0 +1,71 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family:'Times New Roman', sans-serif;
+	background: url(background.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+ 	margin-right:0px;
+}
+
+.containerMain{
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+.container{
+    background-color: rgba(85, 0, 0, 0.4);
+    min-width: 100%;
+    max-width: 100%;
+    padding:38px ;
+}
+
+
+h1{
+	font-size:3rem;
+	color:white;
+}
+
+
+hr{
+	 margin:0rem auto 2rem auto;
+	border-color: darkred;
+	border-width: 0.3rem;
+	max-width: 700px;
+}
+
+.btn {
+font-weight: 700;
+border-radius:300px;
+text-transform: uppercase;
+transition: all 0.1s;
+}
+
+
+.btn-primary {
+	background-color: darkred;
+	border-color: darkred;
+
+}
+
+.btn-primary:hover {
+	background-color: #5b0606;
+	border-color: #5b0606;
+	border-width: 4px;
+}
+
+.btn-primary:active {
+	--bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #5b0606;
+    --bs-btn-active-border-color: #5b0606;
+    transition: all 0.1s;
+	box-shadow: 0 0 30px 1px white;
+}
+
+.btn-xl{
+	padding:1rem 2rem;
+}
